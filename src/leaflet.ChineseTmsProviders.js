@@ -91,7 +91,35 @@ L.TileLayer.ChinaProvider.providers = {
 
   SHIPXY: {
     Normal: {
-      Map: 'http://m12.shipxy.com/tile.c?l=Na&m=o&x={x}&y={y}&z={x}'
+      Map: 'http://m12.shipxy.com/tile.c?l=Na&m=o&x={x}&y={y}&z={z}'
+    },
+    Subdomains: []
+  },
+
+  SF: {
+    Normal: {
+      Map: 'http://map.shipformula.com/styles/klokantech-basic/{z}/{x}/{y}.png',
+      Bright: 'http://map.shipformula.com/styles/osm-bright/{z}/{x}/{y}.png',
+      Dark: 'http://map.shipformula.com/styles/dark-matter/{z}/{x}/{y}.png',
+      Positron: 'http://map.shipformula.com/styles/positron/{z}/{x}/{y}.png'
+    },
+    Satellite: {
+      Map: 'http://map.shipformula.com/styles/satellite/{z}/{x}/{y}.png',
+      Hybrid: 'http://map.shipformula.com/styles/hybrid/{z}/{x}/{y}.png'
+    },
+    Subdomains: []
+  },
+
+  Local: {
+    Normal: {
+      Map: 'http://127.0.0.1:8083/styles/klokantech-basic/{z}/{x}/{y}.png',
+      Bright: 'http://127.0.0.1:8083/styles/osm-bright/{z}/{x}/{y}.png',
+      Dark: 'http://127.0.0.1:8083/styles/dark-matter/{z}/{x}/{y}.png',
+      Positron: 'http://127.0.0.1:8083/styles/positron/{z}/{x}/{y}.png'
+    },
+    Satellite: {
+      Map: 'http://127.0.0.1:8083/styles/satellite/{z}/{x}/{y}.png',
+      Hybrid: 'http://127.0.0.1:8083/styles/hybrid/{z}/{x}/{y}.png'
     },
     Subdomains: []
   }
