@@ -61,6 +61,9 @@ L.TileLayer.ChinaProvider.providers = {
     Satellite: {
       Map: 'http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}'
     },
+    placeName: {
+      Map: "https://ditu.google.cn/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m3!1e0!2sm!3i413113259!3m12!2szh-CN!3sCN!5e18!12m4!1e68!2m2!1sset!2sRoadmapSatellite!12m3!1e37!2m1!1ssmartmaps!4e0!23i1301875&token=59227"
+    },
     Subdomains: []
   },
 
