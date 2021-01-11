@@ -56,7 +56,7 @@ L.TileLayer.ChinaProvider.providers = {
           Annotion: "//t{s}.tianditu.gov.cn/DataServer?T=cta_w&X={x}&Y={y}&L={z}&tk={key}"
       },
       Subdomains: ['0', '1', '2', '3', '4', '5', '6', '7'],
-      key: "174705aebfe31b79b3587279e211cb9a"
+      key: "b0c36010bb50280fd8cff2311c58e689"
   },
 
   GaoDe: {
